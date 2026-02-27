@@ -49,5 +49,5 @@ Setup & Usage
 bash# Install dependencies
 pip install pyspark psutil pandas matplotlib seaborn
 
-# The notebook handles all data download and Spark setup automatically
-# Just run all cells in order
+The notebook handles all data download and Spark setup automatically
+Just run all cells in order
