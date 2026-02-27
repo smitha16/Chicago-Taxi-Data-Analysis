@@ -2,7 +2,7 @@ Chicago TNC Scalability Analysis with PySpark
 A distributed data engineering project analyzing Chicago rideshare (TNC) trip data at scale using PySpark, benchmarking query performance across 100K, 500K, and 1M rows to demonstrate sub-linear scaling behavior.
 
 Overview
-This project pulls live trip data from the City of Chicago Open Data Portal and runs a suite of analytical queries to uncover urban mobility patterns — while systematically measuring how query execution time scales with data volume.
+This project pulls live trip data from the City of Chicago Open Data Portal and runs a suite of analytical queries to uncover urban mobility patterns while systematically measuring how query execution time scales with data volume.
 The core finding: Spark achieves sub-linear scaling across all queries, meaning when data grows 10×, query time grows by significantly less than 10×. This validates the efficiency of Spark's Catalyst optimizer and lazy evaluation model for medium-to-large scale analytics.
 
 Dataset
